@@ -1,0 +1,48 @@
+.about-us {
+    background-color: #524444;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .about-us .overlap-group {
+    border-radius: 57px;
+    height: 409px;
+    width: 434px;
+    position: relative;
+  }
+  
+  .about-us .whatsapp-image {
+    height: 226px;
+    width: 382px;
+    object-fit: cover;
+    position: absolute;
+    top: 38px;
+    left: 26px;
+  }
+  
+  .about-us .rectangle {
+    background-color: #d9d9d9;
+    border-radius: 57px;
+    height: 409px;
+    width: 434px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: soft-light;
+  }
+  
+  .about-us .text {
+    color: transparent;
+    font-family: "Lexend Zetta-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 642px;
+    left: 316px;
+    width: 774px;
+  }
+  
