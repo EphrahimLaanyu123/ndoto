@@ -29,7 +29,6 @@ const AboutUs = () => {
         <div key={index} className="overlap-group">
           <img
             className="whatsapp-image"
-            alt="Whatsapp image"
             src={category.image}
           />
           <div className="rectangle" />

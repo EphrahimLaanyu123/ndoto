@@ -1,204 +1,41 @@
-/* .desktop {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-
-
-  }
+/* Home.css */
+.overlap-group {
+  background-image: url("./assets/WhatsApp Image 2024-03-03 at 09.36.47 (2).jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack items vertically */
   
-  .desktop .overlap-group-wrapper {
-    background-color: #ffffff;
-    height: 1024px;
-    width: 1440px;
-  }
-  
-  .desktop .overlap-group {
-    background-image: url('./assets/IMG_3987.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 1024px;
-    position: relative;
-  
-  }
-  
-  .desktop .frame-1 {
-    left: 31px !important;
-    position: absolute !important;
-    top: 161px !important;
-  }
-  
-  .desktop .home {
-    height: 14px;
-    left: 470px;
-    position: absolute;
-    top: 27px;
-    width: 81px;
-  }
-  
-  .desktop .contact {
-    height: 14px;
-    left: 788px;
-    position: absolute;
-    top: 27px;
-    width: 121px;
-  }
-  
-  .desktop .about {
-    height: 15px;
-    left: 644px;
-    position: absolute;
-    top: 26px;
-    width: 89px;
-  }
-
-  .frame {
-    -webkit-backdrop-filter: blur(4px) brightness(100%);
-    backdrop-filter: blur(px) brightness(100%);
-    height: 340px;
-    mix-blend-mode: darken;
-    position: relative;
-    width: 836px;
-  }
-  
-  .frame .text-wrapper {
-    color: #b3965c;
-    font-family: "Lexend Zetta-Regular", Helvetica;
-    font-size: 128px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
-    width: 816px;
-  } */
-  @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
-  .overlap-group {
-    background-image: url('./assets/IMG_3987.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    height: 1024px;
-    position: relative;
-  }
-  
-  .frame-1 {
-    left: 31px !important;
-    position: absolute !important;
-    top: 161px !important;
-  }
-  
-  .home {
-    height: 14px;
-    left: 470px;
-    position: absolute;
-    top: 27px;
-    width: 81px;
-  }
-  
-  .contact {
-    height: 14px;
-    left: 788px;
-    position: absolute;
-    top: 27px;
-    width: 121px;
-  }
-  
-  .about {
-    height: 15px;
-    left: 644px;
-    position: absolute;
-    top: 26px;
-    width: 89px;
-  }
-  
-  .frame {
-    -webkit-backdrop-filter: blur(4px) brightness(100%);
-    backdrop-filter: blur(px) brightness(100%);
-    height: 340px;
-    mix-blend-mode: darken;
-    position: relative;
-    width: 836px;
-  }
-  
-  .frame .text-wrapper {
-    color: #b3965c;
-    font-family: "Lexend Zetta", sans-serif;
-    font-size: 128px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
-    width: 816px;
-    margin-left: 180px;
-  }
-  
-  .image {
-    background-image: url('./assets/IMG_3987.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 100vh; 
-    width: 100vw; 
-    position: relative;
-    overflow: hidden;
 }
 
-/* @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  .frame {
-    -webkit-backdrop-filter: blur(4px) brightness(100%);
-    backdrop-filter: blur(px) brightness(100%);
-    height: 340px;
-    mix-blend-mode: darken;
-    position: relative;
-    width: 836px;
-    animation: slideInFromLeft 1s ease-in-out forwards; 
-  }
-  
-  .frame .text-wrapper {
-    color: #b3965c;
-    font-family: "Lexend Zetta", sans-serif;
-    font-size: 128px;
-    font-weight: 400;
-    left: -100%;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: -1px;
-    width: 816px;
-    margin-left: 180px;
-  }
-  
-  .frame.animate .text-wrapper {
-    left: 0; 
-  }
-   */
+.text-wrapper,
+.the-vision-of-ndoto,
+.text-wrapper-2 {
+  font-family: "Caudex-Regular", Helvetica;
+  text-align: center; /* Center-align the text */
+  margin-bottom: 10px; /* Add space between stacked items */
+}
 
-   @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-  .text-wrapper {
-    animation: slideInFromLeft 3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
-  }
-  
-  
+.text-wrapper {
+  color: #ecbe04;
+  font-size: 5rem; /* Adjust the font size as needed */
+}
+
+.div {
+  color: #ecbe04;
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  margin-left: 500px;
+}
+
+.the-vision-of-ndoto {
+  color: #d5eb13;
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+.text-wrapper-2 {
+  color: #000000;
+  font-size: 1rem; /* Adjust the font size as needed */
+}

@@ -1,0 +1,56 @@
+.custom-desktop {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.custom-div {
+  background-color: #d9d9d9;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+.custom-text-wrapper {
+    color: #000000;
+    font-family: "Caudex-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 55px;
+    width: 100%; /* Adjust width as needed */
+  }
+.custom-overlap-group {
+  background-color: #d9d9d9;
+  display: flex; /* Use flexbox to arrange blogs horizontally */
+  flex-wrap: wrap; /* Allow blogs to wrap to the next line */
+  justify-content: center; /* Center blogs horizontally */
+  position: absolute;
+  top: 287px;
+  width: 100%;
+}
+
+.custom-blog {
+  margin: 10px; /* Add margin between blogs */
+  position: relative; /* Set position to relative for absolute positioning of child elements */
+}
+
+.custom-whatsapp-image {
+  height: 315px;
+  width: 354px;
+}
+
+.custom-text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Caudex-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  bottom: 10px; /* Adjust position as needed */
+  left: 10px; /* Adjust position as needed */
+}

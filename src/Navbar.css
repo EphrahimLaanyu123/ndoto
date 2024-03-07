@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #333; /* Set background color of navbar */
+    padding: 10px; /* Add padding around navbar */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Align logo and links at the ends */
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Set height of logo */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .navbar-links {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Use flexbox to align items horizontally */
+  }
+  
+  .navbar-links li {
+    margin-right: 20px; /* Add spacing between navigation links */
+  }
+  
+  .navbar-links li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation link */
+  }
+  
+  .navbar-links a {
+    color: white; /* Set color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
