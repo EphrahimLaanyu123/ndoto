@@ -1,0 +1,59 @@
+/* Style the blog details container */
+.blog-details {
+    width: 100vw; /* Cover the entire viewport width */
+    height: 100vh; /* Cover the entire viewport height */
+    margin: 0; /* Remove margins for full screen coverage */
+    padding: 0; /* Remove padding for full screen coverage */
+    display: contents; /* Allow centering of content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-family: "Caudex", serif; /* Use the specified font */
+    background-color: #F0EFE1; /* Use the specified background color */
+    overflow-x: hidden;
+  }
+  
+  /* Style the frame (assuming it's a child of .blog-details) */
+  .blog-details .frame {
+    background-color: rgba(240, 239, 225, 0.8); /* Semi-transparent frame */
+    padding: 20px; /* Add spacing between frame and content */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 5px; /* Add rounded corners */
+    max-width: 800px; /* Adjust as needed for responsive design */
+    margin: 0 auto; /* Center the frame horizontally */
+  }
+  
+  /* Style the blog title */
+  .blog-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Add space between title and description */
+    text-align: center; /* Center the title text */
+  }
+  
+  /* Style the blog description */
+  .blog-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Slightly darker text color */
+    margin-bottom: 20px; /* Add space between paragraphs */
+    text-align: justify; /* Justify the description text */
+  }
+  
+  /* Style the blog image */
+  .blog-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    display: block; /* Remove any default spacing around the image */
+    margin-bottom: 20px; /* Add space between image and text */
+  }
+  
+
+.blog-details {
+  display: flex;
+  flex-direction: column; /* Display frames in a column */
+  padding: 20px;
+  font-family: "Caudex", serif;
+  background-color: #F0EFE1;
+}
+
+

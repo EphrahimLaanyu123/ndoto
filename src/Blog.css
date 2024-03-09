@@ -1,56 +1,149 @@
-.custom-desktop {
-  background-color: #d9d9d9;
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lexend+Zetta:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lexend+Zetta:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lexend+Zetta:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* 
+.blog-details {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-family: "Caudex", serif;
+  background-color: #F0EFE1;
+  overflow-x: hidden;
+} */
+
+.blog-details {
   width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caudex", serif;
+  background-color: #F0EFE1;
 }
 
-.custom-div {
-  background-color: #d9d9d9;
-  height: 1024px;
-  position: relative;
-  width: 1440px;
-}
-.custom-text-wrapper {
-    color: #000000;
-    font-family: "Caudex-Regular", Helvetica;
-    font-size: 64px;
-    font-weight: 400;
-    left: 52px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 55px;
-    width: 100%; /* Adjust width as needed */
-  }
-.custom-overlap-group {
-  background-color: #d9d9d9;
-  display: flex; /* Use flexbox to arrange blogs horizontally */
-  flex-wrap: wrap; /* Allow blogs to wrap to the next line */
-  justify-content: center; /* Center blogs horizontally */
-  position: absolute;
-  top: 287px;
+/* .custom-div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
   width: 100%;
+  height: 100vh;
+  background-color: #F0EFE1;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: "Caudex", serif;
+} */
+
+.custom-div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Adjust padding if needed */
+  justify-content: center;
+  align-items: center;
+  font-family: "Caudex", serif;
+  background-color: #F0EFE1;
+}
+.custom-text-wrapper2 {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  /* margin-bottom: 20px; */
+  margin-right: 1000px;
+}
+
+/* .custom-overlap-group2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+.custom-overlap-group2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: calc(70vw - 40px); */
+  width: 100%; 
+}
+
+
+.blog-frame {
+  background-color: #F0EFE1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 350px;
+}
+
+.blog-frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: left 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.blog-frame:hover::before {
+  left: 0;
+}
+
+.blog-frame:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .custom-blog {
-  margin: 10px; /* Add margin between blogs */
-  position: relative; /* Set position to relative for absolute positioning of child elements */
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
+.custom-blog:hover {
+  transform: translateY(-5px);
+}
+
+
 .custom-whatsapp-image {
-  height: 315px;
-  width: 354px;
+  width: 200px;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .custom-text-wrapper-2 {
-  color: #ffffff;
-  font-family: "Caudex-Regular", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  bottom: 10px; /* Adjust position as needed */
-  left: 10px; /* Adjust position as needed */
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+  cursor: pointer;
 }
+
+.divider {
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #000;
+  margin-top: 10px; 
+  height: 1px;
+}
+
+.view-more {
+  margin-top: 10px; 
+}
+

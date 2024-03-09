@@ -1,41 +1,209 @@
-/* Home.css */
-.overlap-group {
+/* .overlap-group {
   background-image: url("./assets/WhatsApp Image 2024-03-03 at 09.36.47 (2).jpeg");
   background-position: center;
   background-size: cover;
-  height: 100vh; /* Adjust the height as needed */
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column; 
   
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .overlap-group-wrapper {
+  background-image: url("./assets/WhatsApp Image 2024-03-03 at 09.36.47 (2).jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  mix-blend-mode: darken;
+
 }
 
 .text-wrapper,
 .the-vision-of-ndoto,
 .text-wrapper-2 {
   font-family: "Caudex-Regular", Helvetica;
-  text-align: center; /* Center-align the text */
-  margin-bottom: 10px; /* Add space between stacked items */
+  text-align: center;
+  margin-bottom: 10px; 
 }
 
 .text-wrapper {
   color: #ecbe04;
-  font-size: 5rem; /* Adjust the font size as needed */
+  font-size: 5rem;
 }
 
 .div {
   color: #ecbe04;
-  font-size: 2.5rem; /* Adjust the font size as needed */
+  font-size: 2.5rem; 
   margin-left: 500px;
 }
 
 .the-vision-of-ndoto {
   color: #d5eb13;
-  font-size: 1rem; /* Adjust the font size as needed */
+  font-size: 1rem; 
 }
 
 .text-wrapper-2 {
   color: #000000;
-  font-size: 1rem; /* Adjust the font size as needed */
+  font-size: 1rem; 
 }
+
+
+.box {
+  background-color: #beb9b9;
+  mix-blend-mode: multiply;
+  position: relative; 
+  flex: 1; 
+  object-fit: cover;
+  overflow-x: hidden;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.group {
+  height: 1024px;
+}
+
+.overlap-group {
+  background-image: url('./assets/WhatsApp Image 2024-03-03 at 09.36.47 (2).jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+  mix-blend-mode: multiply;
+  
+}
+
+.rectangle {
+  background-color: #d9d9d9;
+  height: 1024px;
+  left: 0;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.text-wrapper {
+  color: #ecbe04;
+  font-family: "Caudex-Regular", Helvetica;
+  font-size: 85px;
+  font-weight: 400;
+  left: 212px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 253px;
+  width: 1120px;
+  z-index: 2; 
+}
+
+.div {
+  color: #ecbe04;
+  font-family: "Caudex-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 233px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 613px;
+  width: 1190px;
+}
+
+.the-vision-of-ndoto {
+  color: #ecbe04;
+  font-family: "Caudex-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 171px;
+  letter-spacing: 8;
+  line-height: normal;
+  position: absolute;
+  top: 697px;
+  width: 1224px;
+  z-index: 2; 
+}
+
+.texts {
+  position: relative;
+  z-index: 2;
+  mix-blend-mode: normal;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
