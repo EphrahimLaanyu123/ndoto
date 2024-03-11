@@ -1,34 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Home2.css";
-import Ndoto from "./Ndoto"; // Import the Ndoto component
-import Blog from "./Blog"; // Import the Blog component
 
-const HomeComponent= () => {
+const HomeComponent = () => {
   return (
-
-    <div className="custom-overlap-wrapper">
-      <div className="custom-overlap-group">
-        <p className="custom-vision-text">Here is ndoto</p>
-        <div className="custom-overlap">
-          <p className="custom-text-wrapper">Welcome to Ndoto Forest</p>
-          <div className="custom-div-wrapper">Preserving Land. Empowering</div>
-        </div>
+    <div className="home-main">
+    <div className="container-home">
+      <div className="texts-container">
+      <h1 className="header-home">Welcome to <br/>Ndoto Forest Community Conservation Organization <br/>(NFCCO)</h1>
+      <p>Preserving Land, Empowering Communities</p>
+      <p>The vision of Ndoto Forest Community Conservation Organization is to maintain 
+        a well-conserved forest ecosystem, sustainably providing ecological, socio-economic, 
+        and cultural benefits to the community. Through collaboration with stakeholders, i
+        ncluding the Kenya Forest Service, the organization aims to combat climate change
+        , increase forest cover, preserve wildlife habitat, and improve the livelihoods of 
+        pastoralist communities in Samburu County's semi-arid region.
+      </p>
+      <Link to="/about"><button>View more</button></Link>
       </div>
     </div>
-
-  );
-};
-
-
-
-const Home2 = () => {
-  return (
-    <div>
-     <HomeComponent/>
-      <Blog />
-      <Ndoto />
     </div>
   );
 };
 
-export default Home2;
+export default HomeComponent;

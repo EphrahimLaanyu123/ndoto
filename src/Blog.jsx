@@ -52,7 +52,7 @@ const Blog = () => {
   return (
      
       <div className="custom-div">
-        <div className="custom-text-wrapper2">Explore the latest from<br />Explore the latest from Ndoto Forest</div>
+        <div className="custom-text-wrapper2">Explore the latest from<br />Ndoto Forest</div>
         <div className="custom-overlap-group2">
           {blogs.map((blog, index) => (
             <div key={index} className="blog-frame">

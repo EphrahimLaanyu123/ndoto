@@ -7,6 +7,8 @@ import BlogDetails from "./BlogDetails";
 import DestinationHighlight from "./bloger";
 import Ndoto from "./Ndoto";
 import Home2 from "./Home2";
+import Footer from './Footer';
+import About from "./About";
 
 const App = () => {
   return (
@@ -15,12 +17,15 @@ const App = () => {
       <div>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home2 />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
           {<Route path="/blog" element={<Blog />} /> }
           <Route path="/blog/:title" element={<BlogDetails />} />
         </Routes>
       </div>
     </Router>
+
+    <Footer></Footer>
     </div>
 
       

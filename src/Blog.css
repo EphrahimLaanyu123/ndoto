@@ -3,19 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Lexend+Zetta:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
-/* 
-.blog-details {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Caudex", serif;
-  background-color: #F0EFE1;
-  overflow-x: hidden;
-} */
 
 .blog-details {
   width: 100%;
@@ -27,27 +14,18 @@
   align-items: center;
   font-family: "Caudex", serif;
   background-color: #F0EFE1;
+
+}
+@keyframes header-image-animation {
+  25% {opacity: 1;}
+  85% , 100%{opacity: 0;}
 }
 
-/* .custom-div {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  width: 100%;
-  height: 100vh;
-  background-color: #F0EFE1;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-  font-family: "Caudex", serif;
-} */
-
 .custom-div {
+  grid-column: 1/-1;
   display: flex;
   flex-direction: column;
-  padding: 20px; /* Adjust padding if needed */
+  padding: 20px; 
   justify-content: center;
   align-items: center;
   font-family: "Caudex", serif;

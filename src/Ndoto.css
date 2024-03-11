@@ -134,13 +134,13 @@
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
-    top: 615px;
+    top: 515px;
     width: 261px;
     background-color: #000000;
   }
   
 .divider2 {
-    height: 734px;
+    height: 634px;
     left: 60px;
     object-fit: cover;
     position: absolute;
